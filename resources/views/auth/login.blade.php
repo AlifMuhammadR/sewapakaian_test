@@ -12,7 +12,7 @@
                         </a>
                         <h5>Sign In</h5>
                     </div>
-                    <form action="{{ route('login_karyawan_proses') }}" method="POST" id="frmLogin">
+                    <form action="{{ route('login_proses') }}" method="POST" id="frmLogin">
                         @csrf
                         <div class="form-floating mb-3">
                             <input type="email" name="email" class="form-control" id="email"
