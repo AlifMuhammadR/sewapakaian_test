@@ -19,7 +19,7 @@ return new class extends Migration
             k.id_pelanggan,
             k.id_pakaian,
             p.foto1,
-            p.nama AS nama_pakaian,
+            p.nama_pakaian AS nama_pakaian,
             p.harga_sewa,
             k.jumlah_order,
             (p.harga_sewa * k.jumlah_order) AS subtotal,
