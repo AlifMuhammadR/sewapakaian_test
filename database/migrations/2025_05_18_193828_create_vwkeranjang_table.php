@@ -26,9 +26,9 @@ return new class extends Migration
             k.created_at,
             k.updated_at
         FROM
-            keranjang k
+            keranjangs k
         JOIN
-            pakaian p ON k.id_pakaian = p.id
+            pakaians p ON k.id_pakaian = p.id
     ");
     }
 
