@@ -1,0 +1,19 @@
+@extends('fe.master')
+@section('sidebar')
+    @include('fe.sidebar')
+@endsection
+@section('cart')
+    @include('fe.cart')
+@endsection
+@section('slider')
+    @include('fe.slider')
+@endsection
+@section('banner')
+    @include('fe.banner')
+@endsection
+@section('store')
+    @include('fe.store')
+@endsection
+@section('blog')
+    @include('fe.ourblog')
+@endsection
