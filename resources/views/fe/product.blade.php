@@ -465,7 +465,6 @@
                                                         }
                                                         total_sewa();
                                                     });
-
                                                     // Jalankan total_sewa() saat halaman dimuat
                                                     total_sewa();
                                                 });
